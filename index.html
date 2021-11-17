@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/apps.css">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="../Demo/Css/base.css">
+    <link rel="stylesheet" href="./Css/effect.css">
+    <link rel="stylesheet" href="./Css/rp.css">
+
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="overlay">
+        <div id="product-intro">
+            <a href="">
+                <p>Product</p>
+            </a>
+        </div>
+
+        <div id="content">
+            <div id="menu">
+                <div id="ter">
+                    <i class="fas fa-sliders-h"></i>
+                    <p>Filter</p>
+                </div>
+
+                <div id="chuyentren">
+
+                </div>
+                <div id="chocloc">
+                    <select name="Select" id="slt">
+                        <option value="Featured">Featured</option>
+                        <option value="A-Z">Alphabetically, A-Z</option>
+                        <option value="Z-A">Alphabetically, Z-A</option>
+                        <option value="lowtohigh">Price, low to high</option>
+                        <option value="hightolow">Price, high to low</option>
+                    </select>
+                </div>
+
+            </div>
+            <div id="product-gaoshop" class="overlay">
+                <div id="filter" class="hide">
+                    <i class="fas fa-times" id="close"></i>
+                    <ul class="loc1">
+                        <a href="">
+                            <h3>Product Categories</h3>
+                        </a>
+                        <li>
+                            <a href="#" id="filterPC">+PC Gaming(4)</a>
+                        </li>
+                        <li>
+                            <a href="#" id="filterlaptop">+Laptop Gaming(10)</a>
+                        </li>
+                        <li>
+                            <a href="#" id="filterMouse">+Mouse(9)</a>
+                        </li>
+                        <li>
+                            <a href="#" id="filterHeadphone">+Headphone(10)</a>
+                        </li>
+                    </ul>
+                    <ul class="loc1">
+                        <a href="#">
+                            <h3>By Price</h3>
+                        </a>
+                        <li>
+                            <div class="slidecontainer">
+                                <input type="range" min="1500" max="3000" value="2000" class="slider" id="myRange">
+                                <div id="byPricein">
+                                    <p>Price:</p>
+                                    <span id="demo"></span>
+                                </div>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"> <button type="submit" class="filter-submit" id="filterrange">Filter</button></a>
+                        </li>
+
+                    </ul>
+                    <ul class="loc1">
+                        <a href="#">
+                            <h3>By Title</h3>
+                        </a>
+                        <li>
+                            <input type="text" name="" id="search" placeholder="Search for product title">
+                        </li>
+                        <li>
+
+                            <button class="filter-submit" id="filtertitle">Filter</button>
+                        </li>
+
+                    </ul>
+                    <ul class="loc1">
+                        <a href="">
+                            <h3>By Color</h3>
+                        </a>
+                        <div id="bycolor">
+                            <li>
+                                <a href="">
+                                    <div id="color1"></div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color2"></div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color3"> </div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color4"></div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color1"></div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color2"></div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color3"> </div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div id="color4"></div>
+                                    <p>Black</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                    <ul class="loc1">
+
+                        <a href="#">
+                            <h3>Shipping & Delivery</h3>
+                        </a>
+                        <li class="hotro">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <span class="tachchu">FREE SHIPPING
+                                    </span>
+                                <span>
+                                        Free shipping for all US order
+                                    </span>
+                            </div>
+                        </li>
+                        <li class="hotro">
+                            <i class="fas fa-headphones-alt"></i>
+                            <div>
+                                <span class="tachchu">SUPPORT 24/7
+                                   </span>
+                                <span>
+                                        We support 24 hours a day
+                                    </span>
+                            </div>
+                        </li>
+                        <li class="hotro">
+                            <i class="fas fa-exchange-alt"></i>
+                            <div class="tachchu"><span>
+                                30 DAYS RETURN
+                            </span>
+                                <span>
+                            You have 30 days to return
+                        </span>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="center-product" id='trang1'>
+                    <ul id="products">
+                        <!-- <li>
+                            <div class="product-items"></div>
+                            <div class="product-top">
+                                <a href="" class="product-thumb">
+                                    <img src="" alt="ảnh 1" width="200px" height="200px">
+                                </a>
+                                <!-- //Mua ngay -->
+                        <!-- <div class="buy-now"> -->
+
+                        <!-- <div class="product-quantity">
+                                        <button class="btn btn-tru"> - </button>
+                                        <input type="text" value="1">
+                                        <button class="btn btn-add"> + </button>
+                                    </div>
+                                    <div>
+                                        <p>ADD TO CART</p>
+                                    </div>
+                                </div>
+                                <div id="heart">
+                                    <i class="far fa-heart">
+                                    <i class="fas fa-heart"></i>
+                                    </i>
+
+                                </div>
+                            </div>
+                            <div class="product-info ">
+                                <a href="" class="product-cat">Shoe</a>
+                                <a href="" class="product-name">ABC</a>
+                                <div class="product-price">$2.999</div>
+                            </div>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div id="chuyentrang">
+
+            </div>
+
+        </div>
+        <div id="backtop" onclick="topFunction()">
+
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </div>
+    <script src="./js/config.js"></script>
+    <script src="./models/data.js"></script>
+    <script src="./models/ProductModel.js"></script>
+    <script src="./models/CategoryModel.js"></script>
+    <script src="./models/SliderModel.js"></script>
+    <script src="./models/UserModel.js"></script>
+    <script src="./js/render.js"></script>
+    <script src="./js/appli.js"></script>
+</body>
+
+
+
+
+
+</html>

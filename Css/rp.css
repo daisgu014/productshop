@@ -1,0 +1,328 @@
+@media screen and (max-width: 1260px) {
+    ul#products li {
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        width: 35em;
+        flex-basis: 29%;
+        margin: 15px auto;
+        margin-bottom: 25px;
+    }
+    ul#products li img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1091px) {
+    #filter {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 1;
+        margin-left: 0px;
+        width: 40%;
+        height: 100%;
+        animation: fadeIn linear 0.5s;
+    }
+    .hide {
+        display: block;
+        overflow: scroll;
+        overflow-x: hidden;
+        font-size: 1.4rem;
+    }
+    .hide::-webkit-scrollbar {
+        width: 5px;
+    }
+    /* Track */
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    /* Handle */
+     ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    /* Handle on hover */
+     ::-webkit-scrollbar-thumb:hover {
+        background: #5f50f1;
+    }
+    #filter i#close {
+        display: block;
+        margin-bottom: 50px;
+    }
+    ul {
+        margin: 25px;
+        display: block;
+    }
+    ul.loc1 li {
+        display: none;
+        padding: 5px;
+    }
+    ul.loc1:hover li {
+        display: block;
+        animation: fadeIn 0.8s ease-in;
+    }
+    ul.loc1 li:hover {
+        font-size: 1.5rem;
+    }
+    ul.loc1 div#bycolor {
+        display: none;
+    }
+    ul.loc1:hover div#bycolor {
+        display: block;
+        animation: fadeIn 0.8s ease-in;
+    }
+    ul.loc1 li.hotro {
+        display: none;
+    }
+    ul.loc1:hover li.hotro {
+        display: flex;
+    }
+    ul.loc1 li.hotro:hover {
+        box-shadow: 0px 0px 5px 2px #999;
+    }
+    #chuyentrang {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .center-product {
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    ul#products li {
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        width: 40em;
+        height: auto;
+        flex-basis: 29%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    #filter {
+        width: 50%;
+    }
+    .hide {
+        display: block;
+        overflow: scroll;
+        overflow-x: hidden;
+        font-size: 1.4rem;
+    }
+    ul {
+        margin: 25px;
+        display: block;
+    }
+    ul.loc1 li {
+        display: none;
+        padding: 5px;
+    }
+    ul.loc1:hover li {
+        display: block;
+        animation: fadeIn 0.8s ease-in;
+    }
+    ul.loc1 div#bycolor {
+        display: none;
+    }
+    ul.loc1:hover div#bycolor {
+        display: block;
+        animation: fadeIn 0.8s ease-in;
+    }
+    #chuyentrang {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .center-product {
+        width: 100%;
+    }
+    .center-product {
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+    }
+    ul#products li {
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        margin-right: auto;
+        width: 5em;
+        height: auto;
+        flex-basis: 30%;
+    }
+    ul#products li img {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+    #menu #ter {
+        margin-left: 80px;
+    }
+    #filter {
+        position: fixed;
+        width: 65%;
+        height: 100%;
+    }
+    #filter i#close {
+        display: block;
+        margin-bottom: 50px;
+    }
+    ul {
+        margin: 25px;
+        display: block;
+    }
+    ul.loc1 li {
+        display: none;
+        padding: 5px;
+    }
+    ul.loc1:hover li {
+        display: block;
+        animation: fadeIn 0.8s ease-in;
+    }
+    ul.loc1 div#bycolor {
+        display: none;
+    }
+    ul.loc1:hover div#bycolor {
+        display: block;
+        animation: fadeIn 0.8s ease-in;
+    }
+    .center-product {
+        width: 100%;
+    }
+    ul#products li {
+        flex-basis: 30%;
+        margin: 15px auto;
+        box-shadow: 0px 0px 4px 2px #999;
+        width: 20em;
+        height: auto;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        margin-right: auto;
+    }
+    ul#products li img {
+        width: 100%;
+        height: 5em;
+    }
+    #chuyentrang {
+        width: 100%;
+        margin: 20px auto;
+    }
+    #chuyentrang p {
+        font-size: 13px;
+    }
+    #chuyentrang #right {
+        width: 20px;
+        height: 20px;
+        margin: 15px;
+    }
+    #chuyentrang #left {
+        width: 20px;
+        height: 20px;
+        margin: 15px;
+    }
+    #backtop {
+        width: 25px;
+        height: 25px;
+    }
+    #backtop i {
+        margin: 0.4em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    ul#products li {
+        height: auto;
+    }
+    ul#products li .product-top div.buy-now {
+        bottom: auto;
+        display: flex;
+        justify-content: center;
+        transition: all 0.3s ease-in-out;
+    }
+    ul#products li .product-top div.buy-now span,
+    ul#products li .product-top div.buy-now p {
+        font-size: 0.8em;
+        line-height: auto;
+        font-weight: bold;
+    }
+    ul#products li:hover div.buy-now {
+        transition: all 0.3s ease-in-out;
+        bottom: 0.1em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    ul#products li {
+        flex-basis: 45%;
+        margin: 15px auto;
+        box-shadow: 0px 0px 4px 2px #999;
+        width: 5em;
+    }
+    ul#products li img {
+        width: 100%;
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        font-size: 13px;
+    }
+    #product-gaoshop {
+        width: 100%;
+    }
+    #filter {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+    #menu #ter {
+        margin-left: 80px;
+    }
+    ul#products li {
+        flex-basis: 40%;
+        margin: 15px auto;
+        height: auto;
+    }
+    ul#products li .product-top div.buy-now {
+        bottom: auto;
+    }
+    ul#products li .product-top div.buy-now span {
+        font-size: 0.8em;
+        line-height: auto;
+        font-weight: bold;
+    }
+    ul#products li:hover div.buy-now div.addtocart {
+        font-size: 0.8em;
+        font-weight: bold;
+        line-height: auto;
+        margin-right: 0.6em
+    }
+    ul#products li:hover div.buy-now {
+        bottom: 0.1em;
+    }
+    #chuyentrang {
+        width: 100%;
+        margin: 20px auto;
+    }
+    #chuyentrang {
+        font-size: 13px;
+    }
+    #chuyentrang #right {
+        width: 20px;
+        height: 20px;
+        margin: 15px;
+    }
+    #chuyentrang #left {
+        width: 20px;
+        height: 20px;
+        margin: 15px;
+    }
+    #backtop {
+        width: 25px;
+        height: 25px;
+    }
+}
